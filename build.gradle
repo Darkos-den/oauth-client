@@ -47,6 +47,7 @@ kotlin {
         jvmMain {
             dependencies {
                 implementation kotlin('stdlib-jdk8')
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.0")
             }
         }
         jvmTest {
